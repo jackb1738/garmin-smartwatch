@@ -1,0 +1,8 @@
+<layout id="MainLayout" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <label id="cadence_text" 
+           x="center" 
+           y="center" 
+           font="Gfx.FONT_NUMBER_THAI_HOT" 
+           justification="Gfx.TEXT_JUSTIFY_CENTER" 
+           color="Gfx.COLOR_WHITE" />
+</layout>
