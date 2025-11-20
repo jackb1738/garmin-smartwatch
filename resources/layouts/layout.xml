@@ -1,32 +1,40 @@
 <layout id="MainLayout" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <!-- Zone Indicator at top -->
+    <label id="zone_indicator" 
+        x="50%" 
+        y="5%" 
+        font="Gfx.FONT_SMALL" 
+        justification="Gfx.TEXT_JUSTIFY_CENTER" 
+        color="Gfx.COLOR_WHITE" />
+    
     <!-- Cadence -->
     <label id="cadence_text" 
         x="60%" 
-        y="10%" 
+        y="15%" 
         font="Gfx.FONT_NUMBER_MEDIUM" 
         justification="Gfx.TEXT_JUSTIFY_CENTER" 
         color="Gfx.COLOR_WHITE" />
     <bitmap id="cadence_icon" 
         x="20%"
-        y="15%"
+        y="20%"
         filename="../drawables/cadence_icon.png" />
     
     <!-- Heart Rate -->
     <label id="heartrate_text" 
         x="60%" 
-        y="30%" 
+        y="38%" 
         font="Gfx.FONT_NUMBER_MEDIUM" 
         justification="Gfx.TEXT_JUSTIFY_CENTER" 
         color="Gfx.COLOR_WHITE" />
     <bitmap id="heartrate_icon" 
         x="20%"
-        y="35%"
+        y="43%"
         filename="../drawables/heartrate_icon.png" />
     
     <!-- Distance -->
     <label id="distance_text" 
         x="50%" 
-        y="55%" 
+        y="62%" 
         font="Gfx.FONT_MEDIUM" 
         justification="Gfx.TEXT_JUSTIFY_CENTER" 
         color="Gfx.COLOR_WHITE" />
@@ -34,7 +42,7 @@
     <!-- Time -->
     <label id="time_text" 
         x="50%" 
-        y="75%" 
+        y="80%" 
         font="Gfx.FONT_MEDIUM" 
         justification="Gfx.TEXT_JUSTIFY_CENTER" 
         color="Gfx.COLOR_WHITE" />

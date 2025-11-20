@@ -34,4 +34,24 @@
         -->
         <iq:barrels/>
     </iq:application>
+    
+    <!-- App Settings -->
+    <iq:settings>
+        <iq:setting propertyKey="@Properties.minCadence" title="@Strings.minCadenceTitle">
+            <iq:settingConfig type="numeric" min="120" max="220" default="160"/>
+        </iq:setting>
+        <iq:setting propertyKey="@Properties.maxCadence" title="@Strings.maxCadenceTitle">
+            <iq:settingConfig type="numeric" min="120" max="220" default="180"/>
+        </iq:setting>
+    </iq:settings>
+    
+    <iq:strings>
+        <iq:string id="minCadenceTitle">Minimum Cadence</iq:string>
+        <iq:string id="maxCadenceTitle">Maximum Cadence</iq:string>
+    </iq:strings>
+    
+    <iq:properties>
+        <iq:property id="minCadence" type="number">160</iq:property>
+        <iq:property id="maxCadence" type="number">180</iq:property>
+    </iq:properties>
 </iq:manifest>
