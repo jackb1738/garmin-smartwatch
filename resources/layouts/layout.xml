@@ -5,7 +5,7 @@
         y="10%" 
         font="Gfx.FONT_NUMBER_MEDIUM" 
         justification="Gfx.TEXT_JUSTIFY_CENTER" 
-        color="Gfx.COLOR_WHITE" />
+        color="Gfx.COLOR_GREEN" />
     <bitmap id="cadence_icon" 
         x="20%"
         y="15%"
@@ -17,7 +17,7 @@
         y="30%" 
         font="Gfx.FONT_NUMBER_MEDIUM" 
         justification="Gfx.TEXT_JUSTIFY_CENTER" 
-        color="Gfx.COLOR_WHITE" />
+        color="Gfx.COLOR_DK_RED" />
     <bitmap id="heartrate_icon" 
         x="20%"
         y="35%"
@@ -29,7 +29,7 @@
         y="55%" 
         font="Gfx.FONT_MEDIUM" 
         justification="Gfx.TEXT_JUSTIFY_CENTER" 
-        color="Gfx.COLOR_WHITE" />
+        color="Gfx.COLOR_BLUE" />
     
     <!-- Time -->
     <label id="time_text" 
