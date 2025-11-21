@@ -32,9 +32,9 @@ module Rez {
         }
         [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 15; @symbol_functiondef = [MainLayout,15,17,27]; @symbol_param<0> = [dc,15,28,30]; @symbol_param<0>_type<0> = [Graphics,15,34,42]; @symbol_param<0>_type<1> = [Dc,15,43,45]; @symbol_return<0> = [Array,15,50,55]; @symbol_return<1> = [WatchUi,15,56,63]; @symbol_return<2> = [Drawable,15,64,72]; ]
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_start:
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_37_8_start:
 [ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 16 12 ]
-            [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_stop" ]
+            [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_37_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_37_8_stop" ]
             %rez_cmp_local_var_dc_getHeight.1 = local;
             symbol [ rez_cmp_local_var_dc_getHeight %rez_cmp_local_var_dc_getHeight.1 16 16 46 ];
             %tmp.1 = lgetv %dc;
@@ -45,7 +45,7 @@ C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Re
             lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
             symbol [ rez_cmp_local_var_dc_getHeight %rez_cmp_local_var_dc_getHeight.1 16 16 46 ];
 [ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 18 12 ]
-            [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_stop" ]
+            [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_37_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_37_8_stop" ]
             %rez_cmp_local_var_dc_getWidth.2 = local;
             symbol [ rez_cmp_local_var_dc_getWidth %rez_cmp_local_var_dc_getWidth.2 18 16 45 ];
             %tmp.4 = lgetv %dc;
@@ -56,7 +56,7 @@ C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Re
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
             symbol [ rez_cmp_local_var_dc_getWidth %rez_cmp_local_var_dc_getWidth.2 18 16 45 ];
 [ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 20 12 ]
-            [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_stop" ]
+            [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_37_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_37_8_stop" ]
             %rez_cmp_local_text_cadence_text.3 = local;
             symbol [ rez_cmp_local_text_cadence_text %rez_cmp_local_text_cadence_text.3 20 16 47 ];
             symbol [ WatchUi %tmp.9 20 54 61 ];
@@ -117,287 +117,287 @@ C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Re
             lputv %rez_cmp_local_text_cadence_text.3 %tmp.7;
             symbol [ rez_cmp_local_text_cadence_text %rez_cmp_local_text_cadence_text.3 20 16 47 ];
 [ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 22 12 ]
-            [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_stop" ]
-            %rez_cmp_local_bitmap_cadence_icon.4 = local;
-            symbol [ rez_cmp_local_bitmap_cadence_icon %rez_cmp_local_bitmap_cadence_icon.4 22 16 49 ];
-            symbol [ WatchUi %tmp.55 22 56 63 ];
+            [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_37_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_37_8_stop" ]
+            %rez_cmp_local_text_cadence_zone.4 = local;
+            symbol [ rez_cmp_local_text_cadence_zone %rez_cmp_local_text_cadence_zone.4 22 16 47 ];
+            symbol [ WatchUi %tmp.55 22 54 61 ];
             %tmp.55 = getm $.Toybox.WatchUi;
-            symbol [ Bitmap %tmp.56 22 64 70 ];
-            %tmp.56 = getv function ? %tmp.55 :Bitmap;
-            %tmp.57 = newd 4;
+            symbol [ Text %tmp.56 22 62 66 ];
+            %tmp.56 = getv function ? %tmp.55 :Text;
+            %tmp.57 = newd 6;
             %tmp.59 = const :identifier;
-            symbol [ identifier %tmp.59 22 73 83 const ];
-            %tmp.60 = "cadence_icon";
+            symbol [ identifier %tmp.59 22 69 79 const ];
+            %tmp.60 = "cadence_zone";
             %tmp.61 = dup %tmp.57;
             %tmp.62 = aputv %tmp.61 %tmp.59 %tmp.60;
-            %tmp.64 = const :rezId;
-            symbol [ rezId %tmp.64 22 102 107 const ];
-            symbol [ $ %tmp.65 22 109 110 ];
-            %tmp.65 = getm $;
-            symbol [ Rez %tmp.66 22 111 114 ];
-            %tmp.66 = getv %tmp.65 :Rez;
-            symbol [ Drawables %tmp.67 22 115 124 ];
-            %tmp.67 = getv %tmp.66 :Drawables;
-            symbol [ cadence_icon %tmp.68 22 125 137 ];
-            %tmp.68 = getv %tmp.67 :cadence_icon;
-            %tmp.69 = dup %tmp.62;
-            %tmp.70 = aputv %tmp.69 %tmp.64 %tmp.68;
-            %tmp.72 = const :locX;
-            symbol [ locX %tmp.72 22 140 144 const ];
-            %tmp.73 = lgetv %rez_cmp_local_var_dc_getWidth.2;
-            symbol [ rez_cmp_local_var_dc_getWidth %tmp.73 22 147 176 ];
-            %tmp.74 = 20;
-            %tmp.75 = 100.0;
-            %tmp.76 = div %tmp.74 %tmp.75;
-            %tmp.77 = mul %tmp.73 %tmp.76;
-            %tmp.78 = dup %tmp.70;
-            %tmp.79 = aputv %tmp.78 %tmp.72 %tmp.77;
-            %tmp.81 = const :locY;
-            symbol [ locY %tmp.81 22 195 199 const ];
-            %tmp.82 = lgetv %rez_cmp_local_var_dc_getHeight.1;
-            symbol [ rez_cmp_local_var_dc_getHeight %tmp.82 22 202 232 ];
-            %tmp.83 = 15;
-            %tmp.84 = 100.0;
-            %tmp.85 = div %tmp.83 %tmp.84;
-            %tmp.86 = mul %tmp.82 %tmp.85;
-            %tmp.87 = dup %tmp.79;
-            %tmp.88 = aputv %tmp.87 %tmp.81 %tmp.86;
-            %tmp.53 = newc %tmp.56 (%tmp.88);
-            lputv %rez_cmp_local_bitmap_cadence_icon.4 %tmp.53;
-            symbol [ rez_cmp_local_bitmap_cadence_icon %rez_cmp_local_bitmap_cadence_icon.4 22 16 49 ];
-[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 23 12 ]
-            %tmp.89 = lgetv %rez_cmp_local_bitmap_cadence_icon.4;
-            symbol [ rez_cmp_local_bitmap_cadence_icon %tmp.89 23 12 45 ];
-            symbol [ setLocation %tmp.90 23 46 57 ];
-            %tmp.90 = getv function %tmp.89 :setLocation;
-            %tmp.91 = lgetv %rez_cmp_local_var_dc_getWidth.2;
-            symbol [ rez_cmp_local_var_dc_getWidth %tmp.91 23 59 88 ];
-            %tmp.92 = 20;
-            %tmp.93 = 100.0;
-            %tmp.94 = div %tmp.92 %tmp.93;
-            %tmp.95 = mul %tmp.91 %tmp.94;
-            %tmp.96 = lgetv %rez_cmp_local_var_dc_getHeight.1;
-            symbol [ rez_cmp_local_var_dc_getHeight %tmp.96 23 107 137 ];
-            %tmp.97 = 15;
-            %tmp.98 = 100.0;
-            %tmp.99 = div %tmp.97 %tmp.98;
-            %tmp.100 = mul %tmp.96 %tmp.99;
-            invoke %tmp.89 %tmp.90(%tmp.95, %tmp.100);
-[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 25 12 ]
-            [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_stop" ]
-            %rez_cmp_local_text_heartrate_text.5 = local;
-            symbol [ rez_cmp_local_text_heartrate_text %rez_cmp_local_text_heartrate_text.5 25 16 49 ];
-            symbol [ WatchUi %tmp.103 25 56 63 ];
-            %tmp.103 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.104 25 64 68 ];
-            %tmp.104 = getv function ? %tmp.103 :Text;
-            %tmp.105 = newd 6;
-            %tmp.107 = const :identifier;
-            symbol [ identifier %tmp.107 25 71 81 const ];
-            %tmp.108 = "heartrate_text";
-            %tmp.109 = dup %tmp.105;
-            %tmp.110 = aputv %tmp.109 %tmp.107 %tmp.108;
-            %tmp.112 = const :color;
-            symbol [ color %tmp.112 25 102 107 const ];
-            symbol [ Gfx %tmp.113 25 109 112 ];
-            %tmp.113 = getm $.Toybox.Graphics;
-            symbol [ COLOR_DK_RED %tmp.114 25 113 125 ];
-            %tmp.114 = getv %tmp.113 :COLOR_DK_RED;
-            %tmp.115 = dup %tmp.110;
-            %tmp.116 = aputv %tmp.115 %tmp.112 %tmp.114;
+            %tmp.64 = const :color;
+            symbol [ color %tmp.64 22 98 103 const ];
+            symbol [ Gfx %tmp.65 22 105 108 ];
+            %tmp.65 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.66 22 109 120 ];
+            %tmp.66 = getv %tmp.65 :COLOR_WHITE;
+            %tmp.67 = dup %tmp.62;
+            %tmp.68 = aputv %tmp.67 %tmp.64 %tmp.66;
+            %tmp.70 = const :locX;
+            symbol [ locX %tmp.70 22 123 127 const ];
+            %tmp.71 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            symbol [ rez_cmp_local_var_dc_getWidth %tmp.71 22 130 159 ];
+            %tmp.72 = 60;
+            %tmp.73 = 100.0;
+            %tmp.74 = div %tmp.72 %tmp.73;
+            %tmp.75 = mul %tmp.71 %tmp.74;
+            %tmp.76 = dup %tmp.68;
+            %tmp.77 = aputv %tmp.76 %tmp.70 %tmp.75;
+            %tmp.79 = const :locY;
+            symbol [ locY %tmp.79 22 178 182 const ];
+            %tmp.80 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            symbol [ rez_cmp_local_var_dc_getHeight %tmp.80 22 185 215 ];
+            %tmp.81 = 18;
+            %tmp.82 = 100.0;
+            %tmp.83 = div %tmp.81 %tmp.82;
+            %tmp.84 = mul %tmp.80 %tmp.83;
+            %tmp.85 = dup %tmp.77;
+            %tmp.86 = aputv %tmp.85 %tmp.79 %tmp.84;
+            %tmp.88 = const :justification;
+            symbol [ justification %tmp.88 22 234 247 const ];
+            symbol [ Gfx %tmp.89 22 249 252 ];
+            %tmp.89 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.90 22 253 272 ];
+            %tmp.90 = getv %tmp.89 :TEXT_JUSTIFY_CENTER;
+            %tmp.91 = dup %tmp.86;
+            %tmp.92 = aputv %tmp.91 %tmp.88 %tmp.90;
+            %tmp.94 = const :font;
+            symbol [ font %tmp.94 22 275 279 const ];
+            symbol [ Gfx %tmp.95 22 281 284 ];
+            %tmp.95 = getm $.Toybox.Graphics;
+            symbol [ FONT_SMALL %tmp.96 22 285 295 ];
+            %tmp.96 = getv %tmp.95 :FONT_SMALL;
+            %tmp.97 = dup %tmp.92;
+            %tmp.98 = aputv %tmp.97 %tmp.94 %tmp.96;
+            %tmp.53 = newc %tmp.56 (%tmp.98);
+            lputv %rez_cmp_local_text_cadence_zone.4 %tmp.53;
+            symbol [ rez_cmp_local_text_cadence_zone %rez_cmp_local_text_cadence_zone.4 22 16 47 ];
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 24 12 ]
+            [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_37_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_37_8_stop" ]
+            %rez_cmp_local_bitmap_cadence_icon.5 = local;
+            symbol [ rez_cmp_local_bitmap_cadence_icon %rez_cmp_local_bitmap_cadence_icon.5 24 16 49 ];
+            symbol [ WatchUi %tmp.101 24 56 63 ];
+            %tmp.101 = getm $.Toybox.WatchUi;
+            symbol [ Bitmap %tmp.102 24 64 70 ];
+            %tmp.102 = getv function ? %tmp.101 :Bitmap;
+            %tmp.103 = newd 4;
+            %tmp.105 = const :identifier;
+            symbol [ identifier %tmp.105 24 73 83 const ];
+            %tmp.106 = "cadence_icon";
+            %tmp.107 = dup %tmp.103;
+            %tmp.108 = aputv %tmp.107 %tmp.105 %tmp.106;
+            %tmp.110 = const :rezId;
+            symbol [ rezId %tmp.110 24 102 107 const ];
+            symbol [ $ %tmp.111 24 109 110 ];
+            %tmp.111 = getm $;
+            symbol [ Rez %tmp.112 24 111 114 ];
+            %tmp.112 = getv %tmp.111 :Rez;
+            symbol [ Drawables %tmp.113 24 115 124 ];
+            %tmp.113 = getv %tmp.112 :Drawables;
+            symbol [ cadence_icon %tmp.114 24 125 137 ];
+            %tmp.114 = getv %tmp.113 :cadence_icon;
+            %tmp.115 = dup %tmp.108;
+            %tmp.116 = aputv %tmp.115 %tmp.110 %tmp.114;
             %tmp.118 = const :locX;
-            symbol [ locX %tmp.118 25 128 132 const ];
+            symbol [ locX %tmp.118 24 140 144 const ];
             %tmp.119 = lgetv %rez_cmp_local_var_dc_getWidth.2;
-            symbol [ rez_cmp_local_var_dc_getWidth %tmp.119 25 135 164 ];
-            %tmp.120 = 60;
+            symbol [ rez_cmp_local_var_dc_getWidth %tmp.119 24 147 176 ];
+            %tmp.120 = 20;
             %tmp.121 = 100.0;
             %tmp.122 = div %tmp.120 %tmp.121;
             %tmp.123 = mul %tmp.119 %tmp.122;
             %tmp.124 = dup %tmp.116;
             %tmp.125 = aputv %tmp.124 %tmp.118 %tmp.123;
             %tmp.127 = const :locY;
-            symbol [ locY %tmp.127 25 183 187 const ];
+            symbol [ locY %tmp.127 24 195 199 const ];
             %tmp.128 = lgetv %rez_cmp_local_var_dc_getHeight.1;
-            symbol [ rez_cmp_local_var_dc_getHeight %tmp.128 25 190 220 ];
-            %tmp.129 = 30;
+            symbol [ rez_cmp_local_var_dc_getHeight %tmp.128 24 202 232 ];
+            %tmp.129 = 15;
             %tmp.130 = 100.0;
             %tmp.131 = div %tmp.129 %tmp.130;
             %tmp.132 = mul %tmp.128 %tmp.131;
             %tmp.133 = dup %tmp.125;
             %tmp.134 = aputv %tmp.133 %tmp.127 %tmp.132;
-            %tmp.136 = const :justification;
-            symbol [ justification %tmp.136 25 239 252 const ];
-            symbol [ Gfx %tmp.137 25 254 257 ];
-            %tmp.137 = getm $.Toybox.Graphics;
-            symbol [ TEXT_JUSTIFY_CENTER %tmp.138 25 258 277 ];
-            %tmp.138 = getv %tmp.137 :TEXT_JUSTIFY_CENTER;
-            %tmp.139 = dup %tmp.134;
-            %tmp.140 = aputv %tmp.139 %tmp.136 %tmp.138;
-            %tmp.142 = const :font;
-            symbol [ font %tmp.142 25 280 284 const ];
-            symbol [ Gfx %tmp.143 25 286 289 ];
-            %tmp.143 = getm $.Toybox.Graphics;
-            symbol [ FONT_NUMBER_MEDIUM %tmp.144 25 290 308 ];
-            %tmp.144 = getv %tmp.143 :FONT_NUMBER_MEDIUM;
-            %tmp.145 = dup %tmp.140;
-            %tmp.146 = aputv %tmp.145 %tmp.142 %tmp.144;
-            %tmp.101 = newc %tmp.104 (%tmp.146);
-            lputv %rez_cmp_local_text_heartrate_text.5 %tmp.101;
-            symbol [ rez_cmp_local_text_heartrate_text %rez_cmp_local_text_heartrate_text.5 25 16 49 ];
+            %tmp.99 = newc %tmp.102 (%tmp.134);
+            lputv %rez_cmp_local_bitmap_cadence_icon.5 %tmp.99;
+            symbol [ rez_cmp_local_bitmap_cadence_icon %rez_cmp_local_bitmap_cadence_icon.5 24 16 49 ];
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 25 12 ]
+            %tmp.135 = lgetv %rez_cmp_local_bitmap_cadence_icon.5;
+            symbol [ rez_cmp_local_bitmap_cadence_icon %tmp.135 25 12 45 ];
+            symbol [ setLocation %tmp.136 25 46 57 ];
+            %tmp.136 = getv function %tmp.135 :setLocation;
+            %tmp.137 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            symbol [ rez_cmp_local_var_dc_getWidth %tmp.137 25 59 88 ];
+            %tmp.138 = 20;
+            %tmp.139 = 100.0;
+            %tmp.140 = div %tmp.138 %tmp.139;
+            %tmp.141 = mul %tmp.137 %tmp.140;
+            %tmp.142 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            symbol [ rez_cmp_local_var_dc_getHeight %tmp.142 25 107 137 ];
+            %tmp.143 = 15;
+            %tmp.144 = 100.0;
+            %tmp.145 = div %tmp.143 %tmp.144;
+            %tmp.146 = mul %tmp.142 %tmp.145;
+            invoke %tmp.135 %tmp.136(%tmp.141, %tmp.146);
 [ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 27 12 ]
-            [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_stop" ]
-            %rez_cmp_local_bitmap_heartrate_icon.6 = local;
-            symbol [ rez_cmp_local_bitmap_heartrate_icon %rez_cmp_local_bitmap_heartrate_icon.6 27 16 51 ];
-            symbol [ WatchUi %tmp.149 27 58 65 ];
+            [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_37_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_37_8_stop" ]
+            %rez_cmp_local_text_heartrate_text.6 = local;
+            symbol [ rez_cmp_local_text_heartrate_text %rez_cmp_local_text_heartrate_text.6 27 16 49 ];
+            symbol [ WatchUi %tmp.149 27 56 63 ];
             %tmp.149 = getm $.Toybox.WatchUi;
-            symbol [ Bitmap %tmp.150 27 66 72 ];
-            %tmp.150 = getv function ? %tmp.149 :Bitmap;
-            %tmp.151 = newd 4;
+            symbol [ Text %tmp.150 27 64 68 ];
+            %tmp.150 = getv function ? %tmp.149 :Text;
+            %tmp.151 = newd 6;
             %tmp.153 = const :identifier;
-            symbol [ identifier %tmp.153 27 75 85 const ];
-            %tmp.154 = "heartrate_icon";
+            symbol [ identifier %tmp.153 27 71 81 const ];
+            %tmp.154 = "heartrate_text";
             %tmp.155 = dup %tmp.151;
             %tmp.156 = aputv %tmp.155 %tmp.153 %tmp.154;
-            %tmp.158 = const :rezId;
-            symbol [ rezId %tmp.158 27 106 111 const ];
-            symbol [ $ %tmp.159 27 113 114 ];
-            %tmp.159 = getm $;
-            symbol [ Rez %tmp.160 27 115 118 ];
-            %tmp.160 = getv %tmp.159 :Rez;
-            symbol [ Drawables %tmp.161 27 119 128 ];
-            %tmp.161 = getv %tmp.160 :Drawables;
-            symbol [ heartrate_icon %tmp.162 27 129 143 ];
-            %tmp.162 = getv %tmp.161 :heartrate_icon;
-            %tmp.163 = dup %tmp.156;
-            %tmp.164 = aputv %tmp.163 %tmp.158 %tmp.162;
-            %tmp.166 = const :locX;
-            symbol [ locX %tmp.166 27 146 150 const ];
-            %tmp.167 = lgetv %rez_cmp_local_var_dc_getWidth.2;
-            symbol [ rez_cmp_local_var_dc_getWidth %tmp.167 27 153 182 ];
-            %tmp.168 = 20;
-            %tmp.169 = 100.0;
-            %tmp.170 = div %tmp.168 %tmp.169;
-            %tmp.171 = mul %tmp.167 %tmp.170;
-            %tmp.172 = dup %tmp.164;
-            %tmp.173 = aputv %tmp.172 %tmp.166 %tmp.171;
-            %tmp.175 = const :locY;
-            symbol [ locY %tmp.175 27 201 205 const ];
-            %tmp.176 = lgetv %rez_cmp_local_var_dc_getHeight.1;
-            symbol [ rez_cmp_local_var_dc_getHeight %tmp.176 27 208 238 ];
-            %tmp.177 = 35;
-            %tmp.178 = 100.0;
-            %tmp.179 = div %tmp.177 %tmp.178;
-            %tmp.180 = mul %tmp.176 %tmp.179;
-            %tmp.181 = dup %tmp.173;
-            %tmp.182 = aputv %tmp.181 %tmp.175 %tmp.180;
-            %tmp.147 = newc %tmp.150 (%tmp.182);
-            lputv %rez_cmp_local_bitmap_heartrate_icon.6 %tmp.147;
-            symbol [ rez_cmp_local_bitmap_heartrate_icon %rez_cmp_local_bitmap_heartrate_icon.6 27 16 51 ];
-[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 28 12 ]
-            %tmp.183 = lgetv %rez_cmp_local_bitmap_heartrate_icon.6;
-            symbol [ rez_cmp_local_bitmap_heartrate_icon %tmp.183 28 12 47 ];
-            symbol [ setLocation %tmp.184 28 48 59 ];
-            %tmp.184 = getv function %tmp.183 :setLocation;
-            %tmp.185 = lgetv %rez_cmp_local_var_dc_getWidth.2;
-            symbol [ rez_cmp_local_var_dc_getWidth %tmp.185 28 61 90 ];
-            %tmp.186 = 20;
-            %tmp.187 = 100.0;
-            %tmp.188 = div %tmp.186 %tmp.187;
-            %tmp.189 = mul %tmp.185 %tmp.188;
-            %tmp.190 = lgetv %rez_cmp_local_var_dc_getHeight.1;
-            symbol [ rez_cmp_local_var_dc_getHeight %tmp.190 28 109 139 ];
-            %tmp.191 = 35;
-            %tmp.192 = 100.0;
-            %tmp.193 = div %tmp.191 %tmp.192;
-            %tmp.194 = mul %tmp.190 %tmp.193;
-            invoke %tmp.183 %tmp.184(%tmp.189, %tmp.194);
-[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 30 12 ]
-            [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_stop" ]
-            %rez_cmp_local_text_distance_text.7 = local;
-            symbol [ rez_cmp_local_text_distance_text %rez_cmp_local_text_distance_text.7 30 16 48 ];
-            symbol [ WatchUi %tmp.197 30 55 62 ];
-            %tmp.197 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.198 30 63 67 ];
-            %tmp.198 = getv function ? %tmp.197 :Text;
-            %tmp.199 = newd 6;
-            %tmp.201 = const :identifier;
-            symbol [ identifier %tmp.201 30 70 80 const ];
-            %tmp.202 = "distance_text";
-            %tmp.203 = dup %tmp.199;
-            %tmp.204 = aputv %tmp.203 %tmp.201 %tmp.202;
-            %tmp.206 = const :color;
-            symbol [ color %tmp.206 30 100 105 const ];
-            symbol [ Gfx %tmp.207 30 107 110 ];
-            %tmp.207 = getm $.Toybox.Graphics;
-            symbol [ COLOR_BLUE %tmp.208 30 111 121 ];
-            %tmp.208 = getv %tmp.207 :COLOR_BLUE;
-            %tmp.209 = dup %tmp.204;
-            %tmp.210 = aputv %tmp.209 %tmp.206 %tmp.208;
+            %tmp.158 = const :color;
+            symbol [ color %tmp.158 27 102 107 const ];
+            symbol [ Gfx %tmp.159 27 109 112 ];
+            %tmp.159 = getm $.Toybox.Graphics;
+            symbol [ COLOR_DK_RED %tmp.160 27 113 125 ];
+            %tmp.160 = getv %tmp.159 :COLOR_DK_RED;
+            %tmp.161 = dup %tmp.156;
+            %tmp.162 = aputv %tmp.161 %tmp.158 %tmp.160;
+            %tmp.164 = const :locX;
+            symbol [ locX %tmp.164 27 128 132 const ];
+            %tmp.165 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            symbol [ rez_cmp_local_var_dc_getWidth %tmp.165 27 135 164 ];
+            %tmp.166 = 60;
+            %tmp.167 = 100.0;
+            %tmp.168 = div %tmp.166 %tmp.167;
+            %tmp.169 = mul %tmp.165 %tmp.168;
+            %tmp.170 = dup %tmp.162;
+            %tmp.171 = aputv %tmp.170 %tmp.164 %tmp.169;
+            %tmp.173 = const :locY;
+            symbol [ locY %tmp.173 27 183 187 const ];
+            %tmp.174 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            symbol [ rez_cmp_local_var_dc_getHeight %tmp.174 27 190 220 ];
+            %tmp.175 = 30;
+            %tmp.176 = 100.0;
+            %tmp.177 = div %tmp.175 %tmp.176;
+            %tmp.178 = mul %tmp.174 %tmp.177;
+            %tmp.179 = dup %tmp.171;
+            %tmp.180 = aputv %tmp.179 %tmp.173 %tmp.178;
+            %tmp.182 = const :justification;
+            symbol [ justification %tmp.182 27 239 252 const ];
+            symbol [ Gfx %tmp.183 27 254 257 ];
+            %tmp.183 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.184 27 258 277 ];
+            %tmp.184 = getv %tmp.183 :TEXT_JUSTIFY_CENTER;
+            %tmp.185 = dup %tmp.180;
+            %tmp.186 = aputv %tmp.185 %tmp.182 %tmp.184;
+            %tmp.188 = const :font;
+            symbol [ font %tmp.188 27 280 284 const ];
+            symbol [ Gfx %tmp.189 27 286 289 ];
+            %tmp.189 = getm $.Toybox.Graphics;
+            symbol [ FONT_NUMBER_MEDIUM %tmp.190 27 290 308 ];
+            %tmp.190 = getv %tmp.189 :FONT_NUMBER_MEDIUM;
+            %tmp.191 = dup %tmp.186;
+            %tmp.192 = aputv %tmp.191 %tmp.188 %tmp.190;
+            %tmp.147 = newc %tmp.150 (%tmp.192);
+            lputv %rez_cmp_local_text_heartrate_text.6 %tmp.147;
+            symbol [ rez_cmp_local_text_heartrate_text %rez_cmp_local_text_heartrate_text.6 27 16 49 ];
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 29 12 ]
+            [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_37_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_37_8_stop" ]
+            %rez_cmp_local_bitmap_heartrate_icon.7 = local;
+            symbol [ rez_cmp_local_bitmap_heartrate_icon %rez_cmp_local_bitmap_heartrate_icon.7 29 16 51 ];
+            symbol [ WatchUi %tmp.195 29 58 65 ];
+            %tmp.195 = getm $.Toybox.WatchUi;
+            symbol [ Bitmap %tmp.196 29 66 72 ];
+            %tmp.196 = getv function ? %tmp.195 :Bitmap;
+            %tmp.197 = newd 4;
+            %tmp.199 = const :identifier;
+            symbol [ identifier %tmp.199 29 75 85 const ];
+            %tmp.200 = "heartrate_icon";
+            %tmp.201 = dup %tmp.197;
+            %tmp.202 = aputv %tmp.201 %tmp.199 %tmp.200;
+            %tmp.204 = const :rezId;
+            symbol [ rezId %tmp.204 29 106 111 const ];
+            symbol [ $ %tmp.205 29 113 114 ];
+            %tmp.205 = getm $;
+            symbol [ Rez %tmp.206 29 115 118 ];
+            %tmp.206 = getv %tmp.205 :Rez;
+            symbol [ Drawables %tmp.207 29 119 128 ];
+            %tmp.207 = getv %tmp.206 :Drawables;
+            symbol [ heartrate_icon %tmp.208 29 129 143 ];
+            %tmp.208 = getv %tmp.207 :heartrate_icon;
+            %tmp.209 = dup %tmp.202;
+            %tmp.210 = aputv %tmp.209 %tmp.204 %tmp.208;
             %tmp.212 = const :locX;
-            symbol [ locX %tmp.212 30 124 128 const ];
+            symbol [ locX %tmp.212 29 146 150 const ];
             %tmp.213 = lgetv %rez_cmp_local_var_dc_getWidth.2;
-            symbol [ rez_cmp_local_var_dc_getWidth %tmp.213 30 131 160 ];
-            %tmp.214 = 50;
+            symbol [ rez_cmp_local_var_dc_getWidth %tmp.213 29 153 182 ];
+            %tmp.214 = 20;
             %tmp.215 = 100.0;
             %tmp.216 = div %tmp.214 %tmp.215;
             %tmp.217 = mul %tmp.213 %tmp.216;
             %tmp.218 = dup %tmp.210;
             %tmp.219 = aputv %tmp.218 %tmp.212 %tmp.217;
             %tmp.221 = const :locY;
-            symbol [ locY %tmp.221 30 179 183 const ];
+            symbol [ locY %tmp.221 29 201 205 const ];
             %tmp.222 = lgetv %rez_cmp_local_var_dc_getHeight.1;
-            symbol [ rez_cmp_local_var_dc_getHeight %tmp.222 30 186 216 ];
-            %tmp.223 = 55;
+            symbol [ rez_cmp_local_var_dc_getHeight %tmp.222 29 208 238 ];
+            %tmp.223 = 35;
             %tmp.224 = 100.0;
             %tmp.225 = div %tmp.223 %tmp.224;
             %tmp.226 = mul %tmp.222 %tmp.225;
             %tmp.227 = dup %tmp.219;
             %tmp.228 = aputv %tmp.227 %tmp.221 %tmp.226;
-            %tmp.230 = const :justification;
-            symbol [ justification %tmp.230 30 235 248 const ];
-            symbol [ Gfx %tmp.231 30 250 253 ];
-            %tmp.231 = getm $.Toybox.Graphics;
-            symbol [ TEXT_JUSTIFY_CENTER %tmp.232 30 254 273 ];
-            %tmp.232 = getv %tmp.231 :TEXT_JUSTIFY_CENTER;
-            %tmp.233 = dup %tmp.228;
-            %tmp.234 = aputv %tmp.233 %tmp.230 %tmp.232;
-            %tmp.236 = const :font;
-            symbol [ font %tmp.236 30 276 280 const ];
-            symbol [ Gfx %tmp.237 30 282 285 ];
-            %tmp.237 = getm $.Toybox.Graphics;
-            symbol [ FONT_MEDIUM %tmp.238 30 286 297 ];
-            %tmp.238 = getv %tmp.237 :FONT_MEDIUM;
-            %tmp.239 = dup %tmp.234;
-            %tmp.240 = aputv %tmp.239 %tmp.236 %tmp.238;
-            %tmp.195 = newc %tmp.198 (%tmp.240);
-            lputv %rez_cmp_local_text_distance_text.7 %tmp.195;
-            symbol [ rez_cmp_local_text_distance_text %rez_cmp_local_text_distance_text.7 30 16 48 ];
+            %tmp.193 = newc %tmp.196 (%tmp.228);
+            lputv %rez_cmp_local_bitmap_heartrate_icon.7 %tmp.193;
+            symbol [ rez_cmp_local_bitmap_heartrate_icon %rez_cmp_local_bitmap_heartrate_icon.7 29 16 51 ];
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 30 12 ]
+            %tmp.229 = lgetv %rez_cmp_local_bitmap_heartrate_icon.7;
+            symbol [ rez_cmp_local_bitmap_heartrate_icon %tmp.229 30 12 47 ];
+            symbol [ setLocation %tmp.230 30 48 59 ];
+            %tmp.230 = getv function %tmp.229 :setLocation;
+            %tmp.231 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            symbol [ rez_cmp_local_var_dc_getWidth %tmp.231 30 61 90 ];
+            %tmp.232 = 20;
+            %tmp.233 = 100.0;
+            %tmp.234 = div %tmp.232 %tmp.233;
+            %tmp.235 = mul %tmp.231 %tmp.234;
+            %tmp.236 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            symbol [ rez_cmp_local_var_dc_getHeight %tmp.236 30 109 139 ];
+            %tmp.237 = 35;
+            %tmp.238 = 100.0;
+            %tmp.239 = div %tmp.237 %tmp.238;
+            %tmp.240 = mul %tmp.236 %tmp.239;
+            invoke %tmp.229 %tmp.230(%tmp.235, %tmp.240);
 [ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 32 12 ]
-            [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_stop" ]
-            %rez_cmp_local_text_time_text.8 = local;
-            symbol [ rez_cmp_local_text_time_text %rez_cmp_local_text_time_text.8 32 16 44 ];
-            symbol [ WatchUi %tmp.243 32 51 58 ];
+            [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_37_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_37_8_stop" ]
+            %rez_cmp_local_text_distance_text.8 = local;
+            symbol [ rez_cmp_local_text_distance_text %rez_cmp_local_text_distance_text.8 32 16 48 ];
+            symbol [ WatchUi %tmp.243 32 55 62 ];
             %tmp.243 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.244 32 59 63 ];
+            symbol [ Text %tmp.244 32 63 67 ];
             %tmp.244 = getv function ? %tmp.243 :Text;
             %tmp.245 = newd 6;
             %tmp.247 = const :identifier;
-            symbol [ identifier %tmp.247 32 66 76 const ];
-            %tmp.248 = "time_text";
+            symbol [ identifier %tmp.247 32 70 80 const ];
+            %tmp.248 = "distance_text";
             %tmp.249 = dup %tmp.245;
             %tmp.250 = aputv %tmp.249 %tmp.247 %tmp.248;
             %tmp.252 = const :color;
-            symbol [ color %tmp.252 32 92 97 const ];
-            symbol [ Gfx %tmp.253 32 99 102 ];
+            symbol [ color %tmp.252 32 100 105 const ];
+            symbol [ Gfx %tmp.253 32 107 110 ];
             %tmp.253 = getm $.Toybox.Graphics;
-            symbol [ COLOR_WHITE %tmp.254 32 103 114 ];
-            %tmp.254 = getv %tmp.253 :COLOR_WHITE;
+            symbol [ COLOR_BLUE %tmp.254 32 111 121 ];
+            %tmp.254 = getv %tmp.253 :COLOR_BLUE;
             %tmp.255 = dup %tmp.250;
             %tmp.256 = aputv %tmp.255 %tmp.252 %tmp.254;
             %tmp.258 = const :locX;
-            symbol [ locX %tmp.258 32 117 121 const ];
+            symbol [ locX %tmp.258 32 124 128 const ];
             %tmp.259 = lgetv %rez_cmp_local_var_dc_getWidth.2;
-            symbol [ rez_cmp_local_var_dc_getWidth %tmp.259 32 124 153 ];
+            symbol [ rez_cmp_local_var_dc_getWidth %tmp.259 32 131 160 ];
             %tmp.260 = 50;
             %tmp.261 = 100.0;
             %tmp.262 = div %tmp.260 %tmp.261;
@@ -405,151 +405,296 @@ C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Re
             %tmp.264 = dup %tmp.256;
             %tmp.265 = aputv %tmp.264 %tmp.258 %tmp.263;
             %tmp.267 = const :locY;
-            symbol [ locY %tmp.267 32 172 176 const ];
+            symbol [ locY %tmp.267 32 179 183 const ];
             %tmp.268 = lgetv %rez_cmp_local_var_dc_getHeight.1;
-            symbol [ rez_cmp_local_var_dc_getHeight %tmp.268 32 179 209 ];
-            %tmp.269 = 75;
+            symbol [ rez_cmp_local_var_dc_getHeight %tmp.268 32 186 216 ];
+            %tmp.269 = 55;
             %tmp.270 = 100.0;
             %tmp.271 = div %tmp.269 %tmp.270;
             %tmp.272 = mul %tmp.268 %tmp.271;
             %tmp.273 = dup %tmp.265;
             %tmp.274 = aputv %tmp.273 %tmp.267 %tmp.272;
             %tmp.276 = const :justification;
-            symbol [ justification %tmp.276 32 228 241 const ];
-            symbol [ Gfx %tmp.277 32 243 246 ];
+            symbol [ justification %tmp.276 32 235 248 const ];
+            symbol [ Gfx %tmp.277 32 250 253 ];
             %tmp.277 = getm $.Toybox.Graphics;
-            symbol [ TEXT_JUSTIFY_CENTER %tmp.278 32 247 266 ];
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.278 32 254 273 ];
             %tmp.278 = getv %tmp.277 :TEXT_JUSTIFY_CENTER;
             %tmp.279 = dup %tmp.274;
             %tmp.280 = aputv %tmp.279 %tmp.276 %tmp.278;
             %tmp.282 = const :font;
-            symbol [ font %tmp.282 32 269 273 const ];
-            symbol [ Gfx %tmp.283 32 275 278 ];
+            symbol [ font %tmp.282 32 276 280 const ];
+            symbol [ Gfx %tmp.283 32 282 285 ];
             %tmp.283 = getm $.Toybox.Graphics;
-            symbol [ FONT_MEDIUM %tmp.284 32 279 290 ];
+            symbol [ FONT_MEDIUM %tmp.284 32 286 297 ];
             %tmp.284 = getv %tmp.283 :FONT_MEDIUM;
             %tmp.285 = dup %tmp.280;
             %tmp.286 = aputv %tmp.285 %tmp.282 %tmp.284;
             %tmp.241 = newc %tmp.244 (%tmp.286);
-            lputv %rez_cmp_local_text_time_text.8 %tmp.241;
-            symbol [ rez_cmp_local_text_time_text %rez_cmp_local_text_time_text.8 32 16 44 ];
+            lputv %rez_cmp_local_text_distance_text.8 %tmp.241;
+            symbol [ rez_cmp_local_text_distance_text %rez_cmp_local_text_distance_text.8 32 16 48 ];
 [ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 34 12 ]
-            %tmp.287 = newa 6 Array<WatchUi.Drawable>;
-            symbol [ Array %tmp.287 34 227 232 ];
-            symbol [ WatchUi %tmp.287 34 233 240 ];
-            symbol [ Drawable %tmp.287 34 241 249 ];
-            %tmp.288 = lgetv %rez_cmp_local_text_cadence_text.3;
-            symbol [ rez_cmp_local_text_cadence_text %tmp.288 34 20 51 ];
-            %tmp.289 = dup %tmp.287;
-            %tmp.290 = aputv %tmp.289 0 %tmp.288;
-            %tmp.291 = lgetv %rez_cmp_local_bitmap_cadence_icon.4;
-            symbol [ rez_cmp_local_bitmap_cadence_icon %tmp.291 34 53 86 ];
-            %tmp.292 = dup %tmp.290;
-            %tmp.293 = aputv %tmp.292 1 %tmp.291;
-            %tmp.294 = lgetv %rez_cmp_local_text_heartrate_text.5;
-            symbol [ rez_cmp_local_text_heartrate_text %tmp.294 34 88 121 ];
-            %tmp.295 = dup %tmp.293;
-            %tmp.296 = aputv %tmp.295 2 %tmp.294;
-            %tmp.297 = lgetv %rez_cmp_local_bitmap_heartrate_icon.6;
-            symbol [ rez_cmp_local_bitmap_heartrate_icon %tmp.297 34 123 158 ];
-            %tmp.298 = dup %tmp.296;
-            %tmp.299 = aputv %tmp.298 3 %tmp.297;
-            %tmp.300 = lgetv %rez_cmp_local_text_distance_text.7;
-            symbol [ rez_cmp_local_text_distance_text %tmp.300 34 160 192 ];
-            %tmp.301 = dup %tmp.299;
-            %tmp.302 = aputv %tmp.301 4 %tmp.300;
-            %tmp.303 = lgetv %rez_cmp_local_text_time_text.8;
-            symbol [ rez_cmp_local_text_time_text %tmp.303 34 194 222 ];
-            %tmp.304 = dup %tmp.302;
-            %tmp.305 = aputv %tmp.304 5 %tmp.303;
-            ret %tmp.305;
-C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_35_8_stop:
+            [ "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_37_8_start" "C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_37_8_stop" ]
+            %rez_cmp_local_text_time_text.9 = local;
+            symbol [ rez_cmp_local_text_time_text %rez_cmp_local_text_time_text.9 34 16 44 ];
+            symbol [ WatchUi %tmp.289 34 51 58 ];
+            %tmp.289 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.290 34 59 63 ];
+            %tmp.290 = getv function ? %tmp.289 :Text;
+            %tmp.291 = newd 6;
+            %tmp.293 = const :identifier;
+            symbol [ identifier %tmp.293 34 66 76 const ];
+            %tmp.294 = "time_text";
+            %tmp.295 = dup %tmp.291;
+            %tmp.296 = aputv %tmp.295 %tmp.293 %tmp.294;
+            %tmp.298 = const :color;
+            symbol [ color %tmp.298 34 92 97 const ];
+            symbol [ Gfx %tmp.299 34 99 102 ];
+            %tmp.299 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.300 34 103 114 ];
+            %tmp.300 = getv %tmp.299 :COLOR_WHITE;
+            %tmp.301 = dup %tmp.296;
+            %tmp.302 = aputv %tmp.301 %tmp.298 %tmp.300;
+            %tmp.304 = const :locX;
+            symbol [ locX %tmp.304 34 117 121 const ];
+            %tmp.305 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            symbol [ rez_cmp_local_var_dc_getWidth %tmp.305 34 124 153 ];
+            %tmp.306 = 50;
+            %tmp.307 = 100.0;
+            %tmp.308 = div %tmp.306 %tmp.307;
+            %tmp.309 = mul %tmp.305 %tmp.308;
+            %tmp.310 = dup %tmp.302;
+            %tmp.311 = aputv %tmp.310 %tmp.304 %tmp.309;
+            %tmp.313 = const :locY;
+            symbol [ locY %tmp.313 34 172 176 const ];
+            %tmp.314 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            symbol [ rez_cmp_local_var_dc_getHeight %tmp.314 34 179 209 ];
+            %tmp.315 = 75;
+            %tmp.316 = 100.0;
+            %tmp.317 = div %tmp.315 %tmp.316;
+            %tmp.318 = mul %tmp.314 %tmp.317;
+            %tmp.319 = dup %tmp.311;
+            %tmp.320 = aputv %tmp.319 %tmp.313 %tmp.318;
+            %tmp.322 = const :justification;
+            symbol [ justification %tmp.322 34 228 241 const ];
+            symbol [ Gfx %tmp.323 34 243 246 ];
+            %tmp.323 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.324 34 247 266 ];
+            %tmp.324 = getv %tmp.323 :TEXT_JUSTIFY_CENTER;
+            %tmp.325 = dup %tmp.320;
+            %tmp.326 = aputv %tmp.325 %tmp.322 %tmp.324;
+            %tmp.328 = const :font;
+            symbol [ font %tmp.328 34 269 273 const ];
+            symbol [ Gfx %tmp.329 34 275 278 ];
+            %tmp.329 = getm $.Toybox.Graphics;
+            symbol [ FONT_MEDIUM %tmp.330 34 279 290 ];
+            %tmp.330 = getv %tmp.329 :FONT_MEDIUM;
+            %tmp.331 = dup %tmp.326;
+            %tmp.332 = aputv %tmp.331 %tmp.328 %tmp.330;
+            %tmp.287 = newc %tmp.290 (%tmp.332);
+            lputv %rez_cmp_local_text_time_text.9 %tmp.287;
+            symbol [ rez_cmp_local_text_time_text %rez_cmp_local_text_time_text.9 34 16 44 ];
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 36 12 ]
+            %tmp.333 = newa 7 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.333 36 260 265 ];
+            symbol [ WatchUi %tmp.333 36 266 273 ];
+            symbol [ Drawable %tmp.333 36 274 282 ];
+            %tmp.334 = lgetv %rez_cmp_local_text_cadence_text.3;
+            symbol [ rez_cmp_local_text_cadence_text %tmp.334 36 20 51 ];
+            %tmp.335 = dup %tmp.333;
+            %tmp.336 = aputv %tmp.335 0 %tmp.334;
+            %tmp.337 = lgetv %rez_cmp_local_text_cadence_zone.4;
+            symbol [ rez_cmp_local_text_cadence_zone %tmp.337 36 53 84 ];
+            %tmp.338 = dup %tmp.336;
+            %tmp.339 = aputv %tmp.338 1 %tmp.337;
+            %tmp.340 = lgetv %rez_cmp_local_bitmap_cadence_icon.5;
+            symbol [ rez_cmp_local_bitmap_cadence_icon %tmp.340 36 86 119 ];
+            %tmp.341 = dup %tmp.339;
+            %tmp.342 = aputv %tmp.341 2 %tmp.340;
+            %tmp.343 = lgetv %rez_cmp_local_text_heartrate_text.6;
+            symbol [ rez_cmp_local_text_heartrate_text %tmp.343 36 121 154 ];
+            %tmp.344 = dup %tmp.342;
+            %tmp.345 = aputv %tmp.344 3 %tmp.343;
+            %tmp.346 = lgetv %rez_cmp_local_bitmap_heartrate_icon.7;
+            symbol [ rez_cmp_local_bitmap_heartrate_icon %tmp.346 36 156 191 ];
+            %tmp.347 = dup %tmp.345;
+            %tmp.348 = aputv %tmp.347 4 %tmp.346;
+            %tmp.349 = lgetv %rez_cmp_local_text_distance_text.8;
+            symbol [ rez_cmp_local_text_distance_text %tmp.349 36 193 225 ];
+            %tmp.350 = dup %tmp.348;
+            %tmp.351 = aputv %tmp.350 5 %tmp.349;
+            %tmp.352 = lgetv %rez_cmp_local_text_time_text.9;
+            symbol [ rez_cmp_local_text_time_text %tmp.352 36 227 255 ];
+            %tmp.353 = dup %tmp.351;
+            %tmp.354 = aputv %tmp.353 6 %tmp.352;
+            ret %tmp.354;
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_15_74_37_8_stop:
         }
     }
-    [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 38; @symbol_moduledef = [Menus,38,11,16]; ]
+    [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 40; @symbol_moduledef = [Menus,40,11,16]; ]
     module Menus {
-        [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 38; ]
+        [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 40; ]
         <init> {
         }
-        [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 39; @symbol_classdef = [MainMenu,39,14,22]; @symbol_extends<0> = [WatchUi,39,31,38]; @symbol_extends<1> = [Menu,39,39,43]; ]
+        [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 41; @symbol_classdef = [MainMenu,41,14,22]; @symbol_extends<0> = [WatchUi,41,31,38]; @symbol_extends<1> = [Menu,41,39,43]; ]
         class MainMenu extends WatchUi.Menu {
-            [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 39; ]
+            [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 41; ]
             <init> {
             }
-            [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 39; ]
+            [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 41; ]
             static
             <init> {
             }
-            [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 40; @symbol_functiondef = [initialize,40,21,31]; ]
+            [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 42; @symbol_functiondef = [initialize,42,21,31]; ]
             function initialize() as Void {
-C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_40_34_44_12_start:
-[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 41 16 ]
-                symbol [ Menu %tmp.2 41 16 20 ];
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_42_34_49_12_start:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 43 16 ]
+                symbol [ Menu %tmp.2 43 16 20 ];
                 %tmp.2 = getv ? :Menu;
-                symbol [ initialize %tmp.3 41 21 31 ];
+                symbol [ initialize %tmp.3 43 21 31 ];
                 %tmp.3 = getv function %tmp.2 :initialize;
                 invoke %tmp.2 %tmp.3();
-[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 42 16 ]
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 44 16 ]
                 %tmp.4 = self;
-                symbol [ addItem %tmp.5 42 16 23 ];
+                symbol [ addItem %tmp.5 44 16 23 ];
                 %tmp.5 = getv function %tmp.4 :addItem;
-                symbol [ WatchUi %tmp.6 42 25 32 ];
+                symbol [ WatchUi %tmp.6 44 25 32 ];
                 %tmp.6 = getm $.Toybox.WatchUi;
-                symbol [ loadResource %tmp.7 42 33 45 ];
+                symbol [ loadResource %tmp.7 44 33 45 ];
                 %tmp.7 = getv function %tmp.6 :loadResource;
-                symbol [ $ %tmp.8 42 46 47 ];
+                symbol [ $ %tmp.8 44 46 47 ];
                 %tmp.8 = getm $;
-                symbol [ Rez %tmp.9 42 48 51 ];
+                symbol [ Rez %tmp.9 44 48 51 ];
                 %tmp.9 = getv %tmp.8 :Rez;
-                symbol [ Strings %tmp.10 42 52 59 ];
+                symbol [ Strings %tmp.10 44 52 59 ];
                 %tmp.10 = getv %tmp.9 :Strings;
-                symbol [ menu_label_1 %tmp.11 42 60 72 ];
-                %tmp.11 = getv %tmp.10 :menu_label_1;
+                symbol [ menu_inc_min %tmp.11 44 60 72 ];
+                %tmp.11 = getv %tmp.10 :menu_inc_min;
                 %tmp.12 = invoke %tmp.6 %tmp.7(%tmp.11);
                 %tmp.13 = as %tmp.12 String;
-                symbol [ String %tmp.13 42 77 83 ];
-                %tmp.15 = const :item_1;
-                symbol [ item_1 %tmp.15 42 87 93 const ];
+                symbol [ String %tmp.13 44 77 83 ];
+                %tmp.15 = const :item_inc_min;
+                symbol [ item_inc_min %tmp.15 44 87 99 const ];
                 invoke %tmp.4 %tmp.5(%tmp.13, %tmp.15);
-[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 43 16 ]
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 45 16 ]
                 %tmp.16 = self;
-                symbol [ addItem %tmp.17 43 16 23 ];
+                symbol [ addItem %tmp.17 45 16 23 ];
                 %tmp.17 = getv function %tmp.16 :addItem;
-                symbol [ WatchUi %tmp.18 43 25 32 ];
+                symbol [ WatchUi %tmp.18 45 25 32 ];
                 %tmp.18 = getm $.Toybox.WatchUi;
-                symbol [ loadResource %tmp.19 43 33 45 ];
+                symbol [ loadResource %tmp.19 45 33 45 ];
                 %tmp.19 = getv function %tmp.18 :loadResource;
-                symbol [ $ %tmp.20 43 46 47 ];
+                symbol [ $ %tmp.20 45 46 47 ];
                 %tmp.20 = getm $;
-                symbol [ Rez %tmp.21 43 48 51 ];
+                symbol [ Rez %tmp.21 45 48 51 ];
                 %tmp.21 = getv %tmp.20 :Rez;
-                symbol [ Strings %tmp.22 43 52 59 ];
+                symbol [ Strings %tmp.22 45 52 59 ];
                 %tmp.22 = getv %tmp.21 :Strings;
-                symbol [ menu_label_2 %tmp.23 43 60 72 ];
-                %tmp.23 = getv %tmp.22 :menu_label_2;
+                symbol [ menu_dec_min %tmp.23 45 60 72 ];
+                %tmp.23 = getv %tmp.22 :menu_dec_min;
                 %tmp.24 = invoke %tmp.18 %tmp.19(%tmp.23);
                 %tmp.25 = as %tmp.24 String;
-                symbol [ String %tmp.25 43 77 83 ];
-                %tmp.27 = const :item_2;
-                symbol [ item_2 %tmp.27 43 87 93 const ];
+                symbol [ String %tmp.25 45 77 83 ];
+                %tmp.27 = const :item_dec_min;
+                symbol [ item_dec_min %tmp.27 45 87 99 const ];
                 invoke %tmp.16 %tmp.17(%tmp.25, %tmp.27);
-C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_40_34_44_12_stop:
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 46 16 ]
+                %tmp.28 = self;
+                symbol [ addItem %tmp.29 46 16 23 ];
+                %tmp.29 = getv function %tmp.28 :addItem;
+                symbol [ WatchUi %tmp.30 46 25 32 ];
+                %tmp.30 = getm $.Toybox.WatchUi;
+                symbol [ loadResource %tmp.31 46 33 45 ];
+                %tmp.31 = getv function %tmp.30 :loadResource;
+                symbol [ $ %tmp.32 46 46 47 ];
+                %tmp.32 = getm $;
+                symbol [ Rez %tmp.33 46 48 51 ];
+                %tmp.33 = getv %tmp.32 :Rez;
+                symbol [ Strings %tmp.34 46 52 59 ];
+                %tmp.34 = getv %tmp.33 :Strings;
+                symbol [ menu_inc_max %tmp.35 46 60 72 ];
+                %tmp.35 = getv %tmp.34 :menu_inc_max;
+                %tmp.36 = invoke %tmp.30 %tmp.31(%tmp.35);
+                %tmp.37 = as %tmp.36 String;
+                symbol [ String %tmp.37 46 77 83 ];
+                %tmp.39 = const :item_inc_max;
+                symbol [ item_inc_max %tmp.39 46 87 99 const ];
+                invoke %tmp.28 %tmp.29(%tmp.37, %tmp.39);
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 47 16 ]
+                %tmp.40 = self;
+                symbol [ addItem %tmp.41 47 16 23 ];
+                %tmp.41 = getv function %tmp.40 :addItem;
+                symbol [ WatchUi %tmp.42 47 25 32 ];
+                %tmp.42 = getm $.Toybox.WatchUi;
+                symbol [ loadResource %tmp.43 47 33 45 ];
+                %tmp.43 = getv function %tmp.42 :loadResource;
+                symbol [ $ %tmp.44 47 46 47 ];
+                %tmp.44 = getm $;
+                symbol [ Rez %tmp.45 47 48 51 ];
+                %tmp.45 = getv %tmp.44 :Rez;
+                symbol [ Strings %tmp.46 47 52 59 ];
+                %tmp.46 = getv %tmp.45 :Strings;
+                symbol [ menu_dec_max %tmp.47 47 60 72 ];
+                %tmp.47 = getv %tmp.46 :menu_dec_max;
+                %tmp.48 = invoke %tmp.42 %tmp.43(%tmp.47);
+                %tmp.49 = as %tmp.48 String;
+                symbol [ String %tmp.49 47 77 83 ];
+                %tmp.51 = const :item_dec_max;
+                symbol [ item_dec_max %tmp.51 47 87 99 const ];
+                invoke %tmp.40 %tmp.41(%tmp.49, %tmp.51);
+[ "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen" 48 16 ]
+                %tmp.52 = self;
+                symbol [ addItem %tmp.53 48 16 23 ];
+                %tmp.53 = getv function %tmp.52 :addItem;
+                symbol [ WatchUi %tmp.54 48 25 32 ];
+                %tmp.54 = getm $.Toybox.WatchUi;
+                symbol [ loadResource %tmp.55 48 33 45 ];
+                %tmp.55 = getv function %tmp.54 :loadResource;
+                symbol [ $ %tmp.56 48 46 47 ];
+                %tmp.56 = getm $;
+                symbol [ Rez %tmp.57 48 48 51 ];
+                %tmp.57 = getv %tmp.56 :Rez;
+                symbol [ Strings %tmp.58 48 52 59 ];
+                %tmp.58 = getv %tmp.57 :Strings;
+                symbol [ menu_reset_zones %tmp.59 48 60 76 ];
+                %tmp.59 = getv %tmp.58 :menu_reset_zones;
+                %tmp.60 = invoke %tmp.54 %tmp.55(%tmp.59);
+                %tmp.61 = as %tmp.60 String;
+                symbol [ String %tmp.61 48 81 87 ];
+                %tmp.63 = const :item_reset_zones;
+                symbol [ item_reset_zones %tmp.63 48 91 107 const ];
+                invoke %tmp.52 %tmp.53(%tmp.61, %tmp.63);
+C__Users_teapot_Documents_Projects_GitHub_TestingCadence_gen_no_device_source_Rez_mcgen_42_34_49_12_stop:
             }
         }
     }
-    [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 48; @symbol_moduledef = [Strings,48,11,18]; ]
+    [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 53; @symbol_moduledef = [Strings,53,11,18]; ]
     module Strings {
-        [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 48; ]
+        [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 53; ]
         <init> {
         }
-        [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 49; @position = 27; initialized = true; @symbol_vardef = [menu_label_1,49,27,39]; @symbol_type<0> = [ResourceId,49,43,53]; ]
+        [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 54; @position = 27; initialized = true; @symbol_vardef = [menu_reset_zones,54,27,43]; @symbol_type<0> = [ResourceId,54,47,57]; ]
+        var menu_reset_zones as ResourceId;
+        [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 55; @position = 27; initialized = true; @symbol_vardef = [menu_inc_max,55,27,39]; @symbol_type<0> = [ResourceId,55,43,53]; ]
+        var menu_inc_max as ResourceId;
+        [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 56; @position = 27; initialized = true; @symbol_vardef = [menu_inc_min,56,27,39]; @symbol_type<0> = [ResourceId,56,43,53]; ]
+        var menu_inc_min as ResourceId;
+        [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 57; @position = 27; initialized = true; @symbol_vardef = [zone_in,57,27,34]; @symbol_type<0> = [ResourceId,57,38,48]; ]
+        var zone_in as ResourceId;
+        [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 58; @position = 27; initialized = true; @symbol_vardef = [menu_label_1,58,27,39]; @symbol_type<0> = [ResourceId,58,43,53]; ]
         var menu_label_1 as ResourceId;
-        [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 50; @position = 27; initialized = true; @symbol_vardef = [menu_label_2,50,27,39]; @symbol_type<0> = [ResourceId,50,43,53]; ]
+        [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 59; @position = 27; initialized = true; @symbol_vardef = [menu_label_2,59,27,39]; @symbol_type<0> = [ResourceId,59,43,53]; ]
         var menu_label_2 as ResourceId;
-        [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 51; @position = 27; initialized = true; @symbol_vardef = [prompt,51,27,33]; @symbol_type<0> = [ResourceId,51,37,47]; ]
+        [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 60; @position = 27; initialized = true; @symbol_vardef = [menu_dec_max,60,27,39]; @symbol_type<0> = [ResourceId,60,43,53]; ]
+        var menu_dec_max as ResourceId;
+        [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 61; @position = 27; initialized = true; @symbol_vardef = [prompt,61,27,33]; @symbol_type<0> = [ResourceId,61,37,47]; ]
         var prompt as ResourceId;
-        [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 52; @position = 27; initialized = true; @symbol_vardef = [AppName,52,27,34]; @symbol_type<0> = [ResourceId,52,38,48]; ]
+        [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 62; @position = 27; initialized = true; @symbol_vardef = [menu_dec_min,62,27,39]; @symbol_type<0> = [ResourceId,62,43,53]; ]
+        var menu_dec_min as ResourceId;
+        [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 63; @position = 27; initialized = true; @symbol_vardef = [AppName,63,27,34]; @symbol_type<0> = [ResourceId,63,38,48]; ]
         var AppName as ResourceId;
+        [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 64; @position = 27; initialized = true; @symbol_vardef = [zone_out,64,27,35]; @symbol_type<0> = [ResourceId,64,39,49]; ]
+        var zone_out as ResourceId;
     }
 }
 [ @file = "C:\Users\teapot\Documents\Projects\GitHub\TestingCadence\gen\no-device\source\Rez.mcgen"; @line = 1; ]

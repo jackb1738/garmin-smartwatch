@@ -19,6 +19,8 @@ module Rez {
 
             var rez_cmp_local_text_cadence_text = new WatchUi.Text({:identifier=>"cadence_text", :color=>Gfx.COLOR_GREEN, :locX=>(rez_cmp_local_var_dc_getWidth * (60 / 100.0)), :locY=>(rez_cmp_local_var_dc_getHeight * (10 / 100.0)), :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_NUMBER_MEDIUM});
 
+            var rez_cmp_local_text_cadence_zone = new WatchUi.Text({:identifier=>"cadence_zone", :color=>Gfx.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * (60 / 100.0)), :locY=>(rez_cmp_local_var_dc_getHeight * (18 / 100.0)), :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
+
             var rez_cmp_local_bitmap_cadence_icon = new WatchUi.Bitmap({:identifier=>"cadence_icon", :rezId=>$.Rez.Drawables.cadence_icon, :locX=>(rez_cmp_local_var_dc_getWidth * (20 / 100.0)), :locY=>(rez_cmp_local_var_dc_getHeight * (15 / 100.0))});
             rez_cmp_local_bitmap_cadence_icon.setLocation((rez_cmp_local_var_dc_getWidth * (20 / 100.0)), (rez_cmp_local_var_dc_getHeight * (15 / 100.0)));
 
@@ -31,7 +33,7 @@ module Rez {
 
             var rez_cmp_local_text_time_text = new WatchUi.Text({:identifier=>"time_text", :color=>Gfx.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * (50 / 100.0)), :locY=>(rez_cmp_local_var_dc_getHeight * (75 / 100.0)), :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_MEDIUM});
 
-            return [rez_cmp_local_text_cadence_text, rez_cmp_local_bitmap_cadence_icon, rez_cmp_local_text_heartrate_text, rez_cmp_local_bitmap_heartrate_icon, rez_cmp_local_text_distance_text, rez_cmp_local_text_time_text] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_text_cadence_text, rez_cmp_local_text_cadence_zone, rez_cmp_local_bitmap_cadence_icon, rez_cmp_local_text_heartrate_text, rez_cmp_local_bitmap_heartrate_icon, rez_cmp_local_text_distance_text, rez_cmp_local_text_time_text] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
@@ -39,16 +41,26 @@ module Rez {
         class MainMenu extends WatchUi.Menu {
             function initialize() {
                 Menu.initialize();
-                addItem((WatchUi.loadResource($.Rez.Strings.menu_label_1) as String), :item_1);
-                addItem((WatchUi.loadResource($.Rez.Strings.menu_label_2) as String), :item_2);
+                addItem((WatchUi.loadResource($.Rez.Strings.menu_inc_min) as String), :item_inc_min);
+                addItem((WatchUi.loadResource($.Rez.Strings.menu_dec_min) as String), :item_dec_min);
+                addItem((WatchUi.loadResource($.Rez.Strings.menu_inc_max) as String), :item_inc_max);
+                addItem((WatchUi.loadResource($.Rez.Strings.menu_dec_max) as String), :item_dec_max);
+                addItem((WatchUi.loadResource($.Rez.Strings.menu_reset_zones) as String), :item_reset_zones);
             }
         }
     } // Menus
 
     module Strings {
+        (:initialized) var menu_reset_zones as ResourceId;
+        (:initialized) var menu_inc_max as ResourceId;
+        (:initialized) var menu_inc_min as ResourceId;
+        (:initialized) var zone_in as ResourceId;
         (:initialized) var menu_label_1 as ResourceId;
         (:initialized) var menu_label_2 as ResourceId;
+        (:initialized) var menu_dec_max as ResourceId;
         (:initialized) var prompt as ResourceId;
+        (:initialized) var menu_dec_min as ResourceId;
         (:initialized) var AppName as ResourceId;
+        (:initialized) var zone_out as ResourceId;
     } // Strings
 } // Rez

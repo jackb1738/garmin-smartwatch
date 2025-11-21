@@ -11,6 +11,7 @@ class TestingCadenceView extends WatchUi.View {
     private var _heartrateDisplay;
     private var _distanceDisplay;
     private var _timeDisplay;
+    private var _cadenceZoneDisplay;
 
     function initialize() {
         View.initialize();
@@ -23,6 +24,7 @@ class TestingCadenceView extends WatchUi.View {
     function onLayout(dc as Dc) as Void {
         setLayout(Rez.Layouts.MainLayout(dc));
         _cadenceDisplay = findDrawableById("cadence_text");
+        _cadenceZoneDisplay = findDrawableById("cadence_zone");
         _heartrateDisplay = findDrawableById("heartrate_text");
         _distanceDisplay = findDrawableById("distance_text");
         _timeDisplay = findDrawableById("time_text");
@@ -60,6 +62,24 @@ class TestingCadenceView extends WatchUi.View {
             _cadenceDisplay.setText(info.currentCadence.toString());
         }else{
             _cadenceDisplay.setText("--");
+        }
+
+        // Show whether current cadence is inside configured zone
+        var minZone = getApp().getMinCadence();
+        var maxZone = getApp().getMaxCadence();
+        var zoneText = "";
+        if (info != null && info.currentCadence != null) {
+            var c = info.currentCadence;
+            if (c >= minZone && c <= maxZone) {
+                zoneText = (WatchUi.loadResource(Rez.Strings.zone_in) as String) + " (" + minZone.toString() + "-" + maxZone.toString() + ")";
+            } else {
+                zoneText = (WatchUi.loadResource(Rez.Strings.zone_out) as String) + " (" + minZone.toString() + "-" + maxZone.toString() + ")";
+            }
+        } else {
+            zoneText = "(" + minZone.toString() + "-" + maxZone.toString() + ")";
+        }
+        if (_cadenceZoneDisplay != null) {
+            _cadenceZoneDisplay.setText(zoneText);
         }
 
         if (info != null && info.currentHeartRate != null){
