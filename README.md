@@ -3,9 +3,10 @@ This is an app for the Garmin Forerunner 165, which allows a user to specify a c
 The watch will vibrate as well as give visual display of the runners progress.
 
 **Compilaton INstructions**
-*You must have generated a developer key*
+*You must have generated a developer key to compile the build. Then run:*
 
 `monkeyc -o TestingCadence.prg -f monkey.jungle -y developer_key.der -w`
+
 `monkeydo testingCadence.prg fr165`
 
 
