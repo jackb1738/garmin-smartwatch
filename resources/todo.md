@@ -1,3 +1,3 @@
-Add in graphs when running
-Chnage colours of text to red / gree when in and out of cadence zone
-Check vibration alert working
+- Add in graphs when running
+- Chnage colours of text to red / gree when in and out of cadence zone
+- Check vibration alert working
