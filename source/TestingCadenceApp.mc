@@ -22,7 +22,7 @@ class TestingCadenceApp extends Application.AppBase {
         
         // Start timer to update zone history every 3 seconds
         _historyTimer = new Timer.Timer();
-        _historyTimer.start(method(:updateZoneHistory), 3000, true);
+        _historyTimer.start(method(:updateZoneHistory), 30000, true);
     }
 
     // onStart() is called on application start up

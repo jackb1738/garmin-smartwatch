@@ -32,7 +32,7 @@ class TestingCadenceChartView extends WatchUi.View {
         
         // Draw title
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(dc.getWidth() / 2, 10, Graphics.FONT_SMALL, "Cadence Zone History", Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(dc.getWidth() / 2, 10, Graphics.FONT_SMALL, "History", Graphics.TEXT_JUSTIFY_CENTER);
     }
 
     function onHide() as Void {
