@@ -6,13 +6,15 @@ import Toybox.Timer;
 import Toybox.System;
 
 class TestingCadenceChartView extends WatchUi.View {
+    const MAX_BARS = 60;
+    const MAX_CADENCE_DISPLAY = 200;
 
+    //display variable
     private var _refreshTimer;
+
 
     function initialize() {
         View.initialize();
-        _refreshTimer = new Timer.Timer();
-        _refreshTimer.start(method(:refreshScreen), 3000, true);
     }
 
     function onLayout(dc as Dc) as Void {
@@ -20,13 +22,12 @@ class TestingCadenceChartView extends WatchUi.View {
     }
 
     function onShow() as Void {
+        _refreshTimer = new Timer.Timer();
+        _refreshTimer.start(method(:refreshScreen), 1000, true);
     }
 
     function onUpdate(dc as Dc) as Void {
-        // Clear the screen (black RGB: 0,0,0 = 0x000000)
-        dc.setColor(0x000000, 0x000000);
-        dc.clear();
-        
+       View.onUpdate(dc);
         // Draw all the elements
         drawElements(dc);
     }
@@ -34,6 +35,7 @@ class TestingCadenceChartView extends WatchUi.View {
     function onHide() as Void {
         if (_refreshTimer != null) {
             _refreshTimer.stop();
+            _refreshTimer = null;
         }
     }
 
@@ -85,75 +87,111 @@ class TestingCadenceChartView extends WatchUi.View {
             dc.drawText(distX, distY - 25, Graphics.FONT_TINY, distanceKm.format("%.2f"), Graphics.TEXT_JUSTIFY_CENTER);
             dc.drawText(distX, distY + 8, Graphics.FONT_XTINY, "km", Graphics.TEXT_JUSTIFY_CENTER);
         }
+
+        //draw ideal cadence range
+        var idealMinCadence = app.getMinCadence();
+        var idealMaxCadence = app.getMaxCadence();
+        var idealCadenceY = height * 0.45;
         
-        // Draw current cadence and label in center
-        var cadenceY = height - 150;
-        
+
+        if(idealMinCadence != null && idealMaxCadence != null){
+            var displayString = (idealMinCadence + " - " + idealMaxCadence).toString();
+            dc.setColor(0xAAAAAA, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(width / 2,idealCadenceY , Graphics.FONT_XTINY, displayString, Graphics.TEXT_JUSTIFY_CENTER);
+        }
+
+        var cadenceY = height * 0.8;
+
         if (info != null && info.currentCadence != null) {
             // Draw "CADENCE" label (light gray RGB: 170,170,170 = 0xAAAAAA)
             dc.setColor(0xAAAAAA, Graphics.COLOR_TRANSPARENT);
             dc.drawText(width / 2, cadenceY, Graphics.FONT_XTINY, "CADENCE", Graphics.TEXT_JUSTIFY_CENTER);
             
             // Draw cadence value in green (RGB: 0,255,0 = 0x00FF00)
-            dc.setColor(0x00FF00, Graphics.COLOR_TRANSPARENT);
-            dc.drawText(width / 2, cadenceY + 20, Graphics.FONT_MEDIUM, info.currentCadence.toString() + "  spm", Graphics.TEXT_JUSTIFY_CENTER);
+            correctColor(info.currentCadence, idealMinCadence, idealMaxCadence, dc);
+            dc.drawText(width / 2, cadenceY + 20, Graphics.FONT_XTINY, info.currentCadence.toString() + "  spm", Graphics.TEXT_JUSTIFY_CENTER);
         }
         
         // Draw the chart at the bottom
         drawChart(dc);
     }
 
+    /**
+    Function to continous update the chart with live cadence data. 
+    The chart is split into bars each representing a candence reading,
+    Each bar data is retrieve from an ZoneHistory array which is updated every tick
+    Each update the watchUI redraws the chart with the latest data.
+    }
+    **/
     function drawChart(dc as Dc) as Void {
         var width = dc.getWidth();
         var height = dc.getHeight();
         
-        // Get zone history from app
-        var app = getApp();
-        var zoneHistory = app.getZoneHistory();
-        var historyIndex = app.getHistoryIndex();
-        
-        // Chart area dimensions - positioned at bottom like in the design
-        var chartHeight = 60;
-        var chartTop = height - chartHeight - 10;
-        var chartBottom = height - 10;
-        var chartLeft = 20;
-        var chartRight = width - 20;
+        //margins value
+        var margin = width * 0.1;
+        var marginLeftRightMultiplier = 1.2;
+        var marginTopMultiplier = 0.5;
+        var marginBottomMultiplier = 2;
+
+        //chart position
+        var chartLeft = margin * marginLeftRightMultiplier;
+        var chartRight = width - chartLeft;
+        var chartTop = height * 0.5 + margin * marginTopMultiplier;
+        var chartBottom = height - margin*marginBottomMultiplier;
         var chartWidth = chartRight - chartLeft;
+        var chartHeight = chartBottom - chartTop;
         
         // Draw white border around chart (RGB: 255,255,255 = 0xFFFFFF)
         dc.setColor(0xFFFFFF, Graphics.COLOR_TRANSPARENT);
-        dc.drawRectangle(chartLeft - 1, chartTop - 1, chartWidth + 2, chartHeight + 2);
+        dc.drawRectangle(chartLeft, chartTop, chartWidth, chartHeight);
         
+        // Get data from app
+        var app = getApp();
+        var zoneHistory = app.getZoneHistory();
+        var historyIndex = app.getHistoryIndex();
+        var idealMinCadence = app.getMinCadence();
+        var idealMaxCadence = app.getMaxCadence();
+        var historyCount = app.getHistoryCount();
+        //check array ?null
+        if(historyCount == 0) {return;}
+
         // Calculate bar width
-        var numBars = 60;
-        var barWidth = chartWidth / numBars;
+        var numBars = historyCount;
+        if(numBars == 0) { return; }
+        var barWidth = chartWidth / MAX_BARS;
+
+        var startIndex = (historyIndex - numBars + MAX_BARS) % MAX_BARS;
         
         // Draw bars
         for (var i = 0; i < numBars; i++) {
-            var dataIndex = (historyIndex + i) % 60; // Start from oldest data
-            var zoneState = zoneHistory[dataIndex];
-            
-            if (zoneState != null) {
-                var barX = chartLeft + (i * barWidth);
-                var barY = chartTop;
-                var barH = chartHeight;
+            var index = (startIndex + i) % MAX_BARS; // Start from oldest data
+            var cadence = zoneHistory[index];
+            if(cadence == null) {cadence = 0;}
                 
-                // Set color based on zone state using RGB hex values
-                if (zoneState == 0) {
-                    dc.setColor(0x00FF00, Graphics.COLOR_TRANSPARENT); // Green RGB: 0,255,0
-                } else if (zoneState == -1) {
-                    dc.setColor(0x0000FF, Graphics.COLOR_TRANSPARENT); // Blue RGB: 0,0,255
-                } else {
-                    dc.setColor(0xFF0000, Graphics.COLOR_TRANSPARENT); // Red RGB: 255,0,0
-                }
-                
-                // Draw the bar (with 1 pixel spacing)
-                if (barWidth > 1) {
-                    dc.fillRectangle(barX, barY, barWidth - 1, barH);
-                } else {
-                    dc.fillRectangle(barX, barY, 1, barH);
-                }
-            }
+            //calculate bar height and position
+            var barHeight = (cadence / MAX_CADENCE_DISPLAY) * chartHeight;
+            var x = chartLeft + i * barWidth;
+            var y = chartBottom - barHeight;
+
+            //seperation between each bar
+            var barOffset = 1;
+            correctColor(cadence, idealMinCadence, idealMaxCadence, dc);
+            dc.fillRectangle(x, y, barWidth-barOffset, barHeight);
         }
+    }
+}
+
+function correctColor(cadence as Number, idealMinCadence as Number, idealMaxCadence as Number, dc as Dc) as Void{
+    if(cadence <= idealMinCadence)
+    {
+        dc.setColor(0x0000FF, Graphics.COLOR_TRANSPARENT);//blue
+    } 
+    else if (cadence >= idealMaxCadence)
+    {
+       dc.setColor(0xFF0000, Graphics.COLOR_TRANSPARENT);//red
+    }
+    else
+    {
+        dc.setColor(0x00FF00, Graphics.COLOR_TRANSPARENT);//green
     }
 }
