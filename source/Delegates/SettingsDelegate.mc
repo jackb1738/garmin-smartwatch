@@ -51,7 +51,7 @@ class SettingsDelegate extends WatchUi.InputDelegate {
             System.println("Button Pressed");
 
             
-            var app = Application.getApp() as RedbackApp;
+            var app = Application.getApp() as GarminApp;
             var minCadence = app.getMinCadence();
             var maxCadence = app.getMaxCadence();
 

@@ -15,7 +15,7 @@ class SelectCadenceDelegate extends WatchUi.Menu2InputDelegate {
     function onSelect(item) as Void {
 
         var id = item.getId();
-        var app = Application.getApp() as RedbackApp;
+        var app = Application.getApp() as GarminApp;
         var currentMin = app.getMinCadence();
         var currentMax = app.getMaxCadence();
 

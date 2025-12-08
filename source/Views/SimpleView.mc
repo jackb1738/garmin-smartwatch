@@ -5,7 +5,7 @@ import Toybox.Lang;
 import Toybox.Timer;
 import Toybox.System;
 
-class MainView extends WatchUi.View {
+class SimpleView extends WatchUi.View {
 
     private var _cadenceDisplay;
     private var _refreshTimer;
@@ -26,7 +26,6 @@ class MainView extends WatchUi.View {
     function initialize() {
         View.initialize();
         _refreshTimer = new Timer.Timer();
-        //Updated the refersh timer to 3 seconds to help preserve battery life
         _refreshTimer.start(method(:refreshScreen), 1000, true);
     }
 
